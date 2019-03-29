@@ -1,0 +1,212 @@
+<!-- CSS stylesheet -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+
+<!-- HTML layout for all pages -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Colorado Crew</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>
+$(function() {
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+ $('#slideshow > div:first')
+   .fadeOut(3000)
+   .next()
+   .fadeIn(3000)
+   .end()
+   .appendTo('#slideshow');
+},  4000);
+
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+      <SCRIPT language="JavaScript" SRC="IE-fix.js"></SCRIPT>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+</div>
+<div class="wrapper1">
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home</a></li>
+
+<li><a href="#.html">About Us</a>
+<ul>
+       <li><a href="Coaches.html">Coaches</a></li>
+       <li><a href="Team.html">Team</a></li>
+       <li><a href="History.html">History</a></li>
+   </ul>
+</li>
+
+<li><a href="#">Get Involved</a>
+       <ul>
+       <li><a href="Recruitment.html">Recruitment</a></li>
+       <li><a href="Alumni.html">Alumni</a></li>
+       <li><a href="RowingDef.html">Rowing Definitions</a></li>
+       </ul>
+</li>
+ 
+ <li><a href="#">Media</a>
+<ul>
+       <li><a href="Newsletters.html">Newsletters</a></li>
+       <li><a href="Media.html">Buffs in the News</a></li>
+   </ul>
+</li>
+<li><a href="Schedule.html">Schedule</a></li>
+<li><a href="Store.html">Store</a></li>
+<li><a href="Rentarower.html">Rent-a-Rower</a></li>
+<li><a href="Contact.html">Contact</a></li>
+
+
+
+<!-- Roster HTML -->
+
+<table class="zebra">
+    <caption> Team Testimonials </caption>
+	<tbody>
+            <tr>
+            	<td> <img src="katie.jpg" width="300">
+                </td>
+		<td> 
+                <p> Katie Lewis: </p>
+		<p>Spring 2013 the question 'What are you doing at 5 in the morning?' was posed to me by my roommate freshman year. Although I sarcastically wanted to reply 'Sleeping' (what else could I be doing, right?) for some greater reason I casually answered with 'Nothing'. I've been on the team ever since. CU Crew has given me an extended family, abs, and a lesson in hard work. I've seen 360 sunrises that everyone else missed, 14 degrees has never seemed warmer, and 20 minutes of burpees....please. I know what it's like to push someone over the cliff of self-imposed limitations, scream at them to climb back up, hug them when they do, and then push them off again, daily. Although being a coxswain I frequently loose my voice, the one inside has never been stronger. </p>
+                </td>
+            </tr>
+
+	    <tr>
+            	<td> <img src="amy.JPG" width="300">
+                </td>
+		<td> 
+		<p> Amy Chen: </p>
+		<p>I joined Colorado Crew (and only barely made the team) after deciding that I missed what track and field had given me throughout my academic career: a sense of unity, an active form of stress relief, and an excuse to go to bed early. Besides giving me the opportunity to make some of the most wonderful friends and meet the most incredible individuals, being part of the Crew team has made me stronger both physically and mentally. I have learned not only how to persevere and manage my time effectively, but also how to push past my limits and stretch out of my comfort zone. The Colorado Crew experience has also taught me that hard work and dedication does translate into improvement and success. True, I can now row a boat in the mountains of Colorado, but I can also sleep the entire night on a bus, carry heavy suitcases, properly row an ergometer, and wake up by 6am on the weekends without an alarm. </p>
+                </td>
+            </tr>
+
+	    <tr>
+            	<td> <img src="peter.jpg" width="300">
+                </td>
+		<td> 
+		<p> Peter Graca: </p>
+		<p>I joined Colorado Crew my freshman year because I felt as if my time in college wasn't panning out to be very satisfying -- I spent too much of my spare time hanging out mindlessly with my friends and just being plain lazy in my room. I had minimal athletic experience going in (I did theatre in high school), but my teammates respected my commitment and cheered me through the difficulties anyway. I'm going into my third year now. Of course, I'm not as unathletic as before, but on top of that, this program has given me other concrete opportunites, too: the team elected me as their Vice President for the 2014-2015 season and chose me to represent them within Club Sports' Executive Board. The personal benefits are what make rowing the timeless sport it is, though: I feel a huge sense of personal satisfaction every day, I have a tightly-knit group of friends with whom I overcome obstacles constantly, and I've seen immeasurable improvement in my personal character and discipline. Don't let these years pass you by. </p>
+                </td>
+            </tr>
+</tbody>
+</table>
+</div>
+
+<br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br></br> <br></br> <br></br> 
+
+
+<table class="zebra">
+    <caption> 2014-2015 Team Roster </caption>
+	<tbody>
+            <tr>
+		<td> 
+                <p> Varsity Women: </p>
+		<p>Katie Lewis (c), Amanda Brennan (c), Emily Connelly, Jordan Whiddon, Maddy Marshall, Alyssa McGownd, Christina Dizon, Jacqui Hemphill, Zoe Roth, Kenzie Skold</p>
+                </td>
+            </tr>
+
+	    <tr>
+		<td> 
+		<p> Varsity Men: </p>
+		<p>Sallie Simpson (c), Kate Cruz (c), Amy Chen (c), Henk Wolda, Peter Graca, Roman Sammartino, Richard Hansen, Andrew Lockwood, William Jensen, James Danahey, Daniel Tsvankin, Michael McNally, Issac Everitt, Niko Huebler, Greyson Contag, Blake Amsberry
+ </p>
+                </td>
+            </tr>
+<!--
+	    <tr>
+            	<td> <img src="nw.jpg" width="400">
+                </td>
+		<td> 
+		<p> Novice Women: </p>
+		<p>Alyssa McGownd, Amanda Brennan, Amy Chen, Carolyn Mason, Christina Dizon, Jacqui Hemphill, Zoe Roth, Kenzie Skold, Jillian Burgwald, Jennifer Johnson </p>
+                </td>
+            </tr>
+
+            <tr>
+		<td> 
+	        <p> Novice Men: </p>
+		<p>Sallie Simpson, Richard Hansen, Andrew Lockwoodm, William Jensen, James Danahey, Daniel Tsvankin, JP Summers, Michael McNally, Aaron McCusker, Isaac Everitt, Niko Huebler, Greyson Contag, Blake Amsberry, Connor Smith</p>
+                </td>
+            </tr>
+-->
+
+</tbody>
+</table>
+</div>
+
+
+<br></br> <br></br> <br></br> <br> </br><br> </br> <br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br> </br><br> </br> <br></br> <br></br> <br></br> <br></br> <br></br>
+<br></br> <br></br> <br></br> <br> </br><br> </br> <br></br> 
+
+<table class="zebra">
+    <caption> 2013-2014 Team Roster </caption>
+	<tbody>
+            <tr>
+            	<td> <img src="vm.jpg" width="400">
+                </td>
+		<td> 
+                <p> Varsity Women: </p>
+		<p>Alessandra Guglielmi, Claire Ochsner,Emily Connelly,Jordan Whiddon, Kate Cruz, Kelsey Coxon, Maddy Marshall</p>
+                </td>
+            </tr>
+
+	    <tr>
+            	<td> <img src="vmm.jpg" width="400">
+                </td>
+		<td> 
+		<p> Varsity Men: </p>
+		<p>Henk Wolda, Peter Graca, Sam Tobey, Tyler Romero </p>
+                </td>
+            </tr>
+
+	    <tr>
+            	<td> <img src="nw.jpg" width="400">
+                </td>
+		<td> 
+		<p> Novice Women: </p>
+		<p>Alyssa McGownd, Amanda Brennan, Amy Chen, Carolyn Mason, Christina Dizon, Jacqui Hemphill, Zoe Roth, Kenzie Skold, Jillian Burgwald, Jennifer Johnson </p>
+                </td>
+            </tr>
+
+            <tr>
+            	<td> <img src="nm.jpg" width="400">
+                </td>
+		<td> 
+	        <p> Novice Men: </p>
+		<p>Sallie Simpson, Richard Hansen, Andrew Lockwoodm, William Jensen, James Danahey, Daniel Tsvankin, JP Summers, Michael McNally, Aaron McCusker, Isaac Everitt, Niko Huebler, Greyson Contag, Blake Amsberry, Connor Smith</p>
+                </td>
+            </tr>
+
+</tbody>
+</table>
+</div>
+    
+</body>
+</html>
+
+<br></br>
+
+
+<!-- Footer info -->
+
+<div class="footer clearix">
+<div class="container_12">
+<p class="grid_12"><a href="">Copyright &copy; Colorado Crew 2014</a></p>
+</div>
+</div>
+</body>

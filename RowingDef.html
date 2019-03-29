@@ -1,0 +1,124 @@
+<!-- CSS stylesheet -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+
+<!-- HTML layout for all pages -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Colorado Crew</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>
+$(function() {
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+ $('#slideshow > div:first')
+   .fadeOut(3000)
+   .next()
+   .fadeIn(3000)
+   .end()
+   .appendTo('#slideshow');
+},  4000);
+
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+      <SCRIPT language="JavaScript" SRC="IE-fix.js"></SCRIPT>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+</div>
+<div class="wrapper1">
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home</a></li>
+
+<li><a href="#.html">About Us</a>
+<ul>
+       <li><a href="Coaches.html">Coaches</a></li>
+       <li><a href="Team.html">Team</a></li>
+       <li><a href="History.html">History</a></li>
+   </ul>
+</li>
+
+<li><a href="#">Get Involved</a>
+       <ul>
+       <li><a href="Recruitment.html">Recruitment</a></li>
+       <li><a href="Alumni.html">Alumni</a></li>
+       <li><a href="RowingDef.html">Rowing Definitions</a></li>
+       </ul>
+</li>
+ 
+ <li><a href="#">Media</a>
+<ul>
+       <li><a href="Newsletters.html">Newsletters</a></li>
+       <li><a href="Media.html">Buffs in the News</a></li>
+   </ul>
+</li>
+<li><a href="Schedule.html">Schedule</a></li>
+<li><a href="Store.html">Store</a></li>
+<li><a href="Rentarower.html">Rent-a-Rower</a></li>
+<li><a href="Contact.html">Contact</a></li>
+
+
+
+<!-- Rowing Definitions HTML -->
+
+<div id="container">   
+
+<table class="zebra">
+<caption>Types of Collegiate Races</caption>
+	<tbody>
+        <tr><td>Head Races</td><td>Head races usually take place in the fall on rivers - hence the Head of the Charles, the Head of the Iowa, etc. Rowers start the course one after the other, about 15 seconds apart, navigate three miles of river - around bends and under bridges. Whomever completes the course in the shortest amount of time wins.</td></tr>
+        <tr><td>Sprint Races</td><td>These competitions are 2000 meters. Most courses are divided into six buoyed lanes, allowing six boats to participate at any one time.</td></tr>
+   	<tr><td>Indoor Races</td><td>Typically held in the winter, these races are contested on rowing machines at an indoor location. The rowing machines are computer linked and results are shown on large screens.</td></tr>
+	</tbody>
+</table>
+<br></br>
+
+<table class="zebra">
+<caption>People in a Boat</caption>
+	<tbody>
+	<tr><td>Bow Pair</td><td>The forward section of the shell. Rowers here will cross the finish line first.</td></tr>
+	<tr><td>Stern Pair</td><td>The rear of the shell. In an eight, these rowers will be closest to the Coxswain. Stroke pair sets the paces for the boat.</td></tr>
+	<tr><td>Coxswain </td><td> Member of the crew who sits in a stationary seat at the stern or lies in the bow facing forward. Primarly charged with stearing. Often calls rate and aids in carrying strategy by gauging the competition's position. Steers the boat and is the on-the-water coach. Must weigh at least 100 pounds.</td></tr>
+	</tbody>
+</table>
+<br></br>
+<img src= "def.png" width="500" align="center">
+<br></br>
+<br></br>
+
+
+<table class="zebra">
+<caption>General Rowing Definitions</caption>
+	<tbody>
+	<tr><td>"Back it down"</td><td>Command from the coxswain for rowers to reverse blades and row backward in short strokes.</td></tr>
+	<tr><td>Stroke Rate</td><td>Number of strokes per minute. Usually varies in a race from 38-40 at start to 28-34 in the middle and 34-42 at the finish.</td></tr>
+	<tr><td>Catch</td><td>That point in each stroke cycle at which the blade enters the water.</td></tr>
+	<tr><td>Finish</td><td>As part of the stroke cycle, the last part of the drive before release.</td></tr>
+	<tr><td>Layback</td><td>Amount of lean of rowers body at finish. Less angle then the catch.</td></tr>
+	<tr><td>Racing Start</td><td>First few strokes of race. Usually shorter and quicker than those used through the body of the race. Critical in setting tempo.</td></tr>
+	</tbody>
+</table>
+</div>
+    
+</body>
+</html>
+
+<!-- Footer info -->
+
+<div class="footer clearix">
+<div class="container_12">
+<p class="grid_12"><a href="">Copyright &copy; Colorado Crew 2014</a></p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!-- CSS stylesheet -->
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+
+<!-- HTML layout for all pages -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Colorado Crew</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+      <SCRIPT language="JavaScript" SRC="IE-fix.js"></SCRIPT>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+</div>
+<div class="wrapper1">
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home</a></li>
+
+<li><a href="#.html">About Us</a>
+<ul>
+       <li><a href="Coaches.html">Coaches</a></li>
+       <li><a href="Team.html">Team</a></li>
+       <li><a href="History.html">History</a></li>
+   </ul>
+</li>
+
+<li><a href="#">Get Involved</a>
+       <ul>
+       <li><a href="Recruitment.html">Recruitment</a></li>
+       <li><a href="Alumni.html">Alumni</a></li>
+       <li><a href="RowingDef.html">Rowing Definitions</a></li>
+       </ul>
+</li>
+ 
+ <li><a href="#">Media</a>
+<ul>
+       <li><a href="Newsletters.html">Newsletters</a></li>
+       <li><a href="Media.html">Buffs in the News</a></li>
+   </ul>
+</li>
+<li><a href="Schedule.html">Schedule</a></li>
+<li><a href="Store.html">Store</a></li>
+<li><a href="Rentarower.html">Rent-a-Rower</a></li>
+<li><a href="Contact.html">Contact</a></li>
+
+</body>
+
+
+
+
+<!-- Index HTML -->
+
+<br> </br>
+<br> </br>
+
+<script>
+$(function() {
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+ $('#slideshow > div:first')
+   .fadeOut(3000)
+   .next()
+   .fadeIn(3000)
+   .end()
+   .appendTo('#slideshow');
+},  4000);
+
+});
+</script>
+
+<div id="slideshow">
+	 <div>
+	    <img src="im2.jpg" width="930">
+	 </div>
+	 <div>
+	    <img src="img.jpg" width="930">
+	 </div>
+	 <div>
+	    <img src="pac12.jpg" width="930">
+	 </div>
+	 <div>
+	    <img src="img3.jpg" width="930">
+	 </div>
+         <div>
+	    <img src="Crew-0.jpg" width="930">
+	 </div>
+	 <div>
+	    <img src="acras2.JPG" width="930">
+	 </div>
+	 <div>
+	    <img src="Crew-4.jpg" width="930">
+	 </div>
+</div>
+
+<img src="rowingnews.png" width="400">
+<br> </br>
+<h3> Recruiting for the 2014-15 season has begun! Come to Learn-to-Row Week during the first week of school, August 26th-30th, in the Rec Center's Rowing Studio. No prior experience is necessary.<h3/>
+<br> </br>
+<h3> Information night is on Wednesday, August 27th at 8:30PM in Humanities 250. The Humanities building is located on the North side of the Norlin Quad.<h3/>
+
+
+<br> </br>
+
+<div class="container3" centered>
+<a href="https://twitter.com/Colorado_Crew" target="_blank"><img src="twitter.jpg" width="200" height="60" /></Za>
+<a href="https://www.facebook.com/ColoradoCrew?fref=ts" target="_blank"><img src="facebookbutton.jpg" width="200" height="60" /></a>
+<a href="http://instagram.com/colorado_crew" target="_blank"><img src="instagram.jpg" width="200" height="60" /></a>
+</div>
+
+
+<!-- Footer info -->
+<br></br>
+<br></br>
+
+<div class="footer clearix">
+<div class="container_12">
+<p class="grid_12"><a href="">Copyright &copy; Colorado Crew 2014</a></p>
+</div>
+</div>
+</body>
+</html>

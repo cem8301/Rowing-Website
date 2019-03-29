@@ -1,0 +1,130 @@
+<!-- CSS stylesheet -->
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+
+<!-- HTML layout for all pages -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Colorado Crew</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>
+$(function() {
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+ $('#slideshow > div:first')
+   .fadeOut(3000)
+   .next()
+   .fadeIn(3000)
+   .end()
+   .appendTo('#slideshow');
+},  4000);
+
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+      <SCRIPT language="JavaScript" SRC="IE-fix.js"></SCRIPT>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+</div>
+<div class="wrapper1">
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home</a></li>
+
+<li><a href="#.html">About Us</a>
+<ul>
+       <li><a href="Coaches.html">Coaches</a></li>
+       <li><a href="Team.html">Team</a></li>
+       <li><a href="History.html">History</a></li>
+   </ul>
+</li>
+
+<li><a href="#">Get Involved</a>
+       <ul>
+       <li><a href="Recruitment.html">Recruitment</a></li>
+       <li><a href="Alumni.html">Alumni</a></li>
+       <li><a href="RowingDef.html">Rowing Definitions</a></li>
+       </ul>
+</li>
+ 
+ <li><a href="#">Media</a>
+<ul>
+       <li><a href="Newsletters.html">Newsletters</a></li>
+       <li><a href="Media.html">Buffs in the News</a></li>
+   </ul>
+</li>
+<li><a href="Schedule.html">Schedule</a></li>
+<li><a href="Store.html">Store</a></li>
+<li><a href="Rentarower.html">Rent-a-Rower</a></li>
+<li><a href="Contact.html">Contact</a></li>
+
+
+
+<!-- Recruitment HTML -->
+<!DOCTYPE html>
+</ul>
+</div>
+
+ 
+<div class="container1"></div>
+
+<div class="wrapper">
+<div class="main-story container_12">
+<div class="grid_6 push_6">
+<h1><div class="title"><a href="">Recruitment</a></h1>
+</div>
+<div class="intro grid_3 push_9">
+
+
+<br></br>
+<body>
+<div align="center">
+<iframe width="853" height="480" src="//www.youtube.com/embed/4-eU8Zf59Ho?rel=0" frameborder="0" allowfullscreen ></iframe>
+</div>
+</body>
+
+
+<br></br>
+<p> Are you interested in rowing for Colorado Crew? Recruiting for the 2014-15 season has begun! Come to Learn-to-Row Week during the first week of school, August 26th-30th, in the Rec Center's Rowing Studio. Learn-to-Row Week helps introduce the sport of rowing to students of all backgrounds during daily sessions, given by the coaches and other rowers. No prior experience is necessary. 
+<br></br>
+Our official information night is on Wednesday, August 27th at 8:30PM in Humanities 250.  The Humanities building is located on the North side of the Norlin Quad. 
+<br></br>
+Have more questions or comments? E-mail us at cucrewrecruiting@gmail.com.
+</p>
+<br></br>
+
+
+<!--Add in text sms option 
+<form action="script.php" method="post"> <center>
+	<img src="reminder.jpg" border="2" width="300" height="50">
+	<br>Enter your cell phone number:<br/>
+	<input type="text" name="number" value=""><br/>
+        <br><br/>
+	<input type="submit" value="Send Me a Future Reminder!" name="submit"></center>
+</form>
+</html> -->
+
+<!-- Footer info -->
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+</div>
+</div>
+</div>
+<div class="footer clearix">
+<div class="container_12">
+<p class="grid_12"><a href="">Copyright &copy; Colorado Crew 2014</a></p>
+</div>
+</div>
+</body>
